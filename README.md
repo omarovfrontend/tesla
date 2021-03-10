@@ -1,4 +1,4 @@
 # tesla
 tesla-project
 
-Demo - https://omarov-frontend.github.io/tesla/
+Demo - https://omarovfrontend.github.io/tesla/

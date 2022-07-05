@@ -1,162 +1,182 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Tesla</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container header__inner">
-            <a class="header__logo" href="#">
-                <img src="./img/header-logo.png" alt="Tesla">
-            </a>
-            <nav class="nav">
-                <a class="nav__link nav__link_active" href="#">Model S</a>
-                <a class="nav__link" href="#">Model X</a>
-                <a class="nav__link" href="#">Model 3</a>
-                <a class="nav__link" href="#">Roadster</a>
-                <a class="nav__link" href="#">Energy</a>
-            </nav>
-            <div class="header__login">
-                <a class="nav__link login__link" href="">Магазин</a>
-                <a class="nav__link login__link" href="">Войти</a>
-                <button class="header__burger">
-                    <img class="burger-btn" src="./img/header-burger.png" alt="burger">
-                </button>
-            </div>
+      <div class="container header__inner">
+        <a class="header__logo" href="#">
+          <img src="./img/header-logo.png" alt="Tesla" />
+        </a>
+        <nav class="nav">
+          <a class="nav__link nav__link_active" href="#">Model S</a>
+          <a class="nav__link" href="#">Model X</a>
+          <a class="nav__link" href="#">Model 3</a>
+          <a class="nav__link" href="#">Roadster</a>
+          <a class="nav__link" href="#">Energy</a>
+        </nav>
+        <div class="header__login">
+          <a class="nav__link login__link" href="">Магазин</a>
+          <a class="nav__link login__link" href="">Войти</a>
+          <button class="header__burger">
+            <img
+              class="burger-btn"
+              src="./img/header-burger.png"
+              alt="burger"
+            />
+          </button>
         </div>
+      </div>
     </header>
 
     <section class="model">
-        <h1 class="model__title">Model S</h1>
-        <p class="model__subtitle">Добро пожаловать в будущее!</p>
-        <img class="model__img" src="./img/header-tesla.png" alt="Tesla">
-        <div class="inner__info">
-            <div class="info__block-speed">
-                <div class="inner__info-speed">
-                    <div class="inner__info-title"><span>2,7</span> сек</div>
-                    <div class="inner__info-subtitle">0-100 км/час</div>
-                </div>
-                <div class="inner__info-stock">
-                    <div class="inner__info-title"><span>632</span> км</div>
-                    <div class="inner__info-subtitle">Запас хода</div>
-                </div>
-            </div>
-            <div class="info__block-test">
-                <a class="inner__info-link" href="#">Тест драйв</a>
-                <button class="tesla-btn model__info-btn" type="button">Заказать</button>
-            </div>
+      <h1 class="model__title">Model S</h1>
+      <p class="model__subtitle">Добро пожаловать в будущее!</p>
+      <img class="model__img" src="./img/header-tesla.png" alt="Tesla" />
+      <div class="inner__info">
+        <div class="info__block-speed">
+          <div class="inner__info-speed">
+            <div class="inner__info-title"><span>2,7</span> сек</div>
+            <div class="inner__info-subtitle">0-100 км/час</div>
+          </div>
+          <div class="inner__info-stock">
+            <div class="inner__info-title"><span>632</span> км</div>
+            <div class="inner__info-subtitle">Запас хода</div>
+          </div>
         </div>
-        <img class="model__arrow" src="./img/model-arrow.png" alt="arrow">
+        <div class="info__block-test">
+          <a class="inner__info-link" href="#">Тест драйв</a>
+          <button class="tesla-btn model__info-btn" type="button">
+            Заказать
+          </button>
+        </div>
+      </div>
+      <img class="model__arrow" src="./img/model-arrow.png" alt="arrow" />
     </section>
 
     <main class="content container">
-        <section class="top">
-            <h2 class="top-title">Model S</h2>
-            <aside class="inner__content">
-                <div class="inner__text inner__text-top">
-                    <h3 class="content__title content__title-top">Будущее вождения</h3>
-                    <p class="content__description content__description-top">
-                        Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых 
-                        и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая 
-                        инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша 
-                        обеспечивает просторный интерьер для каждого пассажира.
-                    </p>
-                </div>
-                <div class="inner__info-top">
-                    <div class="inner__info-display">
-                        <div class="inner__info-title"><span>17</span> дюймов</div>
-                        <div class="inner__info-subtitle">Большой дисплей</div>
-                    </div>
-                    <div class="inner__info-software">
-                        <div class="inner__info-title">Беспроводное обновление ПО</div>
-                        <div class="inner__info-subtitle">Повышенная <br> функциональность</div>
-                    </div>
-                    <div class="inner__info-capacity">
-                        <div class="inner__info-title"><span>894</span> литра</div>
-                        <div class="inner__info-subtitle">Объем грузового <br> пространства</div>
-                    </div>
-                </div>
-                <div class="content__form">
-                    <a class="form__link" href="#">Узнать больше</a>
-                    <button class="tesla-btn form__btn" type="button">Заказать</button>
-                </div>
-            </aside>
-        </section>
+      <section class="top">
+        <h2 class="top-title">Model S</h2>
+        <aside class="inner__content">
+          <div class="inner__text inner__text-top">
+            <h3 class="content__title content__title-top">Будущее вождения</h3>
+            <p class="content__description content__description-top">
+              Модель S обладает лучшей в своем классе вместимостью: в машине
+              поместится до пяти взрослых и двух детей. Оснащена современным
+              17-дюймовым сенсорным экраном. Усовершенствованная шумовая
+              инженерия создает динамику звука, сравнимую со студией
+              звукозаписи, а стеклянная крыша обеспечивает просторный интерьер
+              для каждого пассажира.
+            </p>
+          </div>
+          <div class="inner__info-top">
+            <div class="inner__info-display">
+              <div class="inner__info-title"><span>17</span> дюймов</div>
+              <div class="inner__info-subtitle">Большой дисплей</div>
+            </div>
+            <div class="inner__info-software">
+              <div class="inner__info-title">Беспроводное обновление ПО</div>
+              <div class="inner__info-subtitle">
+                Повышенная <br />
+                функциональность
+              </div>
+            </div>
+            <div class="inner__info-capacity">
+              <div class="inner__info-title"><span>894</span> литра</div>
+              <div class="inner__info-subtitle">
+                Объем грузового <br />
+                пространства
+              </div>
+            </div>
+          </div>
+          <div class="content__form">
+            <a class="form__link" href="#">Узнать больше</a>
+            <button class="tesla-btn form__btn" type="button">Заказать</button>
+          </div>
+        </aside>
+      </section>
 
-        <section class="bottom">
-            <div class="bottom-img"></div>
-            <aside class="inner__content">
-                <div class="inner__text inner__text-bottom">
-                    <h3 class="content__title">Самый безопасный автомобиль в мире</h3>
-                    <p class="content__description content__description-bottom">
-                        Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, 
-                        и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на 
-                        переднем, боковом, заднем сидении и в ДТП с переворотом авто.
-                    </p>
+      <section class="bottom">
+        <div class="bottom-img"></div>
+        <aside class="inner__content">
+          <div class="inner__text inner__text-bottom">
+            <h3 class="content__title">Самый безопасный автомобиль в мире</h3>
+            <p class="content__description content__description-bottom">
+              Модель S достигла наивысшей оценки безопасности любого автомобиля,
+              когда-либо испытанного, и установила рекорд по наименьшей
+              вероятности травмы пассажиров - от несчастных случаев на переднем,
+              боковом, заднем сидении и в ДТП с переворотом авто.
+            </p>
+          </div>
+          <div class="bottom__inner-info">
+            <h3 class="content__title">Оценка защиты:</h3>
+            <ul class="star">
+              <li class="star__item">
+                Спереди
+                <div class="star-group">
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
                 </div>
-                <div class="bottom__inner-info">
-                    <h3 class="content__title">Оценка защиты:</h3>
-                    <ul class="star">
-                        <li class="star__item">Спереди
-                            <div class="star-group">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                            </div>
-                        </li>
-                        <li class="star__item">Сбоку
-                            <div class="star-group">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                            </div>
-                        </li>
-                        <li class="star__item">Сбоку<span>(стойка)</span>
-                            <div class="star-group">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                            </div>
-                        </li>
-                        <li class="star__item">Водитель
-                            <div class="star-group">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                            </div>
-                        </li>
-                        <li class="star__item">Пассажир
-                            <div class="star-group">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                                <img class="star-img" src="./img/Star.png" alt="star">
-                            </div>
-                        </li>
-                    </ul>
+              </li>
+              <li class="star__item">
+                Сбоку
+                <div class="star-group">
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
                 </div>
-                <div class="bottom__inner-quality">
-                    <h3 class="quality__title">5 звезд</h3>
-                    <div class="quality__subtitle">безопасности</div>
+              </li>
+              <li class="star__item">
+                Сбоку<span>(стойка)</span>
+                <div class="star-group">
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
                 </div>
-                <div class="content__form content__form-bottom">
-                    <a class="form__link" href="#">Узнать больше</a>
-                    <button class="tesla-btn form__btn" type="button">Заказать</button>
-                </div> 
-            </aside>
-        </section>
+              </li>
+              <li class="star__item">
+                Водитель
+                <div class="star-group">
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                </div>
+              </li>
+              <li class="star__item">
+                Пассажир
+                <div class="star-group">
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                  <img class="star-img" src="./img/Star.png" alt="star" />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="bottom__inner-quality">
+            <h3 class="quality__title">5 звезд</h3>
+            <div class="quality__subtitle">безопасности</div>
+          </div>
+          <div class="content__form content__form-bottom">
+            <a class="form__link" href="#">Узнать больше</a>
+            <button class="tesla-btn form__btn" type="button">Заказать</button>
+          </div>
+        </aside>
+      </section>
     </main>
-</body>
+  </body>
 </html>

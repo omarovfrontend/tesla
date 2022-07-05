@@ -1,31 +1,31 @@
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-regular-webfont.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-medium-webfont.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-medium-webfont.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-semibold-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-bold-webfont.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-bold-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 15px;
   line-height: 18px;
   margin: 0;
@@ -67,7 +67,7 @@ body {
   margin-right: 50px;
   color: #000;
   font-weight: 600;
-  transition: color .2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 .nav__link:last-child {
@@ -76,7 +76,7 @@ body {
 
 .nav__link_active,
 .nav__link:hover {
-  color: #E51937;
+  color: #e51937;
 }
 
 .nav__link_active::after {
@@ -84,7 +84,7 @@ body {
   content: "";
   width: 60px;
   margin-top: 5px;
-  border-bottom: 2px solid #E51937;
+  border-bottom: 2px solid #e51937;
   display: block;
   border-bottom-left-radius: 5px 2px;
   border-bottom-right-radius: 5px 2px;
@@ -196,7 +196,7 @@ body {
 }
 
 .inner__info-title {
-  font-size:  20px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
 }
@@ -235,25 +235,25 @@ body {
   text-transform: uppercase;
   color: #fff;
   border: 2px solid #fff;
-  background-color: #E51937;
+  background-color: #e51937;
   cursor: pointer;
   padding: 10px 44px;
-  transition: .3s background, color linear;
+  transition: 0.3s background, color linear;
 }
 
 .tesla-btn:hover {
   background-color: #fff;
-  color: #E51937;
+  color: #e51937;
 }
 
 .model__info-btn {
-  color: #E51937;
-  border: 2px solid #E51937;
+  color: #e51937;
+  border: 2px solid #e51937;
   background-color: #fff;
 }
 
 .model__info-btn:hover {
-  background-color: #E51937;
+  background-color: #e51937;
   color: #fff;
 }
 
@@ -282,13 +282,13 @@ body {
   font-size: 70px;
   line-height: 85px;
   font-weight: 600;
-  color: #E51937;
+  color: #e51937;
   margin: 40px 0 0 40px;
 }
 
 .inner__content {
   max-width: 440px;
-  background-color: #E51937;
+  background-color: #e51937;
   padding: 55px 45px;
   color: #fff;
 }
@@ -486,8 +486,8 @@ body {
 /* 1 section - adaptive */
 @media (max-width: 1230px) {
   .container {
-      max-width: 1230px;
-      margin: 0 auto;
+    max-width: 1230px;
+    margin: 0 auto;
   }
 }
 
@@ -537,7 +537,7 @@ body {
   }
   .inner__info-link {
     font-size: 16px;
-    color: #E51937;
+    color: #e51937;
     line-height: 20px;
     font-weight: bold;
   }
@@ -551,7 +551,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
-    background-color: #E51937;
+    background-color: #e51937;
   }
 }
 
@@ -724,7 +724,7 @@ body {
   .inner__info-top {
     margin-bottom: 60px;
   }
-  .inner__info-display, 
+  .inner__info-display,
   .inner__info-software {
     margin-bottom: 25px;
   }
@@ -735,9 +735,9 @@ body {
 
 @media (max-width: 940px) {
   .inner__info-top {
-    width:  250px;
+    width: 250px;
   }
-  .inner__info-display, 
+  .inner__info-display,
   .inner__info-software {
     margin-bottom: 40px;
   }
@@ -877,7 +877,6 @@ body {
     top: -320px;
   }
 }
-
 
 @media (max-width: 750px) {
   .bottom__inner-info {
